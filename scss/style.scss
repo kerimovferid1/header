@@ -5,6 +5,7 @@ font-family: 'Oswald', sans-serif;
 $box-sh:0 5px 25px 0 rgba(0, 0, 0, 0.2);
 #headerALL{
 .container{
+        transition: 1s ease;
 	// height: 150px;
 	// border: 1px solid black;
 
@@ -63,6 +64,7 @@ background: #e5e5e5;
     	}
     }
     .nav1{
+            transition: 1s ease;
         position: relative;
     top: 32px;
      .nav_page{
