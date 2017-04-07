@@ -41,6 +41,7 @@ body {
   #headerALL .container .nav1 .nav_page {
     background: white;
     display: none;
+    left: -270px;
     position: absolute;
     width: 100%; }
     #headerALL .container .nav1 .nav_page .row {
@@ -196,7 +197,6 @@ body {
   background: white;
   width: 240px;
   position: absolute;
-  right: 14.5%;
   display: none; }
   #headerALL .nav1 .galleryNav ul li {
     padding: 19px 0 4px 0px;
@@ -213,7 +213,6 @@ body {
   background: white;
   width: 240px;
   position: absolute;
-  right: 3.9%;
   display: none; }
   #headerALL .nav1 .blogNav ul li {
     padding: 19px 0 4px 0px;
