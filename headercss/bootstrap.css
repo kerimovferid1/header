@@ -2705,7 +2705,8 @@ fieldset[disabled] .checkbox label {
   padding-left: 0;
 }
 .input-sm {
-  height: 30px;
+      margin-top: 30px;
+  height: 50px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
@@ -2720,7 +2721,7 @@ select[multiple].input-sm {
   height: auto;
 }
 .form-group-sm .form-control {
-  height: 30px;
+  height: 56px;
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
@@ -4166,8 +4167,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+  margin-bottom: -20px;
+/*  border: 1px solid transparent;*/
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4508,12 +4509,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
+ /* color: #333;*/
+  background-color:#F57E57;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
