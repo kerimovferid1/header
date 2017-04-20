@@ -108,11 +108,11 @@ $('.icon').click(function() {
   
 }
 });
-  $(document).click(function(e){
-    e.stopPropagation();
-            // $(".submenu").slideUp(500);
-           if(!$(e.target).closest('.rMenu').length>0){
-                $(".resNav").removeClass('rActive');
-                $('.h').removeClass('active').siblings('span.rMenuu').addClass('active');
-            }
-        });
+  // $(document).click(function(e){
+  //   e.stopPropagation();
+  //           // $(".submenu").slideUp(500);
+  //          if(!$(e.target).closest('.rMenu').length>0){
+  //               $(".resNav").removeClass('rActive');
+  //               $('.h').removeClass('active').siblings('span.rMenuu').addClass('active');
+  //           }
+  //       });
