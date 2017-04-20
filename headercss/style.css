@@ -519,7 +519,7 @@ nav {
     left: -188px; }
 
   nav .pageD li a {
-    transform: translateX(-28px); }
+    transform: translateX(-26px); }
     nav .pageD li a:hover {
       transform: translateX(-20px); } }
 @media (max-width: 1000px) {
